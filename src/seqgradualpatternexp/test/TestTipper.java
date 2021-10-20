@@ -16,14 +16,14 @@ public class TestTipper {
     static Map<String, Double> valueSales = new HashMap<>();
 
     public static void main(String[] args) throws Exception {
-        FIS fis = getFISByFileDesc(fileName);
+       /* FIS fis = getFISByFileDesc(fileName);
 
         determineFuzzyItemByValueOfItem(fis, "price", 0.5);
         determineFuzzyItemByValueOfItem(fis, "consumption", 0.5);
         determineFuzzyItemByValueOfItem(fis, "sales", 0.5);
 
          // Evaluate
-        // fis.evaluate();
+        // fis.evaluate();*/
     }
 
     public static  Map<String, Double> determineFuzzyItemByValueOfItem(FIS fis, String item, Double valueOfItem) {
